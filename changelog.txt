@@ -1,0 +1,23 @@
+v 0.1.1
+updates:
+- Updated jquery-3.1.2 to jquery 3.2.0
+- Added simple modal-windows functionality
+
+bugfixes:
+- cleaned from some trash
+
+v 0.0.2
+updates:
+- Refused from using Griddle, now only Bootstrap4 grid;
+- Added aligment utils to Bootstrap;
+- Updated fancybox-2 to version fancybox-3.
+
+bugfixes:
+- Finded loosed fancybox styles file;
+- Import utils styles file.
+
+other things:
+- reorganized fonts dir.
+
+v 0.0.1
+Project created.
