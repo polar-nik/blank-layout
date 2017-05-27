@@ -3,15 +3,14 @@ This is my small template to quick start in layout creating.
 
 
 ## What technologies using?
-HTML, CSS3 + SASS (scss), Bootstrap4 (only grid!) jQuery, FontAwesome icons
+HTML5, CSS3 + SASS (scss), Bootstrap 4 (only grid!) jQuery, FontAwesome icons
 
 ## What Plugins included?
 - [Slick slider v1.6.0](http://kenwheeler.github.io/slick/)
 - [fancybox 3.0](http://fancyapps.com/fancybox/3/)
 
 ## Have you added anything else?
-Yes, i do:
-- Simple modal-windows functionality
+Not yet.
 
 ## How to use slick plugin?
 It's very simple:
@@ -43,36 +42,30 @@ For more documentation please visit official site.
 
 ## How to use modal windows?
 
-Call link:
+With this, we will again help fancybox plugin:
 
+You have to place a DIV container into the content of the page:
 ```html
-<a href="#" data-modal-target="some_modal_identifier">Open modal window</a>
+<a data-fancybox data-src="#hidden-content" href="javascript:;">
+  Show modal window
+</a>
 ```
 
-Next you need to add code like these somewhere in foot of site, but before the scripts loading place:
-
-This layer must places **ONCE** in a page!
+And then simply create a link using `data-src` attribute that matches CSS id selector of the element you want to open (`#hidden-content` in this example):
 ```html
-<div id="modal-background"></div>
-```
-**Then add your modals as much as you need:**
-
-```html
-<div class="modal" data-modal-object="some_modal_identifier">
-    <div class="modal-close"><i class="fa fa-fw fa-close"></i></div>
-    <div class="modal-content">
-        This is my modal window!
-    </div>
+<div style="display: none;" id="hidden-content">
+  <h2>Hello</h2>
+  <p>World!</p>
 </div>
 ```
 
 # In this version:
 ### updates:
-- Updated jquery-3.1.2 to jquery 3.2.0
-- Added simple modal-windows functionality
+- We have abandoned to use own modal-window script in favor of built-in functionality fancybox3;
+- Added flex-alignment for bootstrap.
 
 ### bugfixes:
-- cleaned from some trash
+- none
 
 # TODO:
 - ajax-php sendmail form+script

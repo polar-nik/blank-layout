@@ -1,3 +1,8 @@
+v 0.1.7
+updates:
+- We have abandoned to use own modal-window script in favor of built-in functionality fancybox3
+- Added flex-alignment for bootstrap
+
 v 0.1.1
 updates:
 - Updated jquery-3.1.2 to jquery 3.2.0

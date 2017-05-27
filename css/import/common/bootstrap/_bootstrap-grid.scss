@@ -38,6 +38,16 @@ html {
 @import "mixins/grid-framework";
 @import "mixins/grid";
 
-@import "custom";
+//
+// Others
+//
 
+@import "custom";
 @import "grid";
+
+//
+// Grid utilites
+//
+
+@import "utilites/align";
+@import "utilites/flex";
