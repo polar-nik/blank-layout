@@ -61,8 +61,9 @@ And then simply create a link using `data-src` attribute that matches CSS id sel
 
 # In this version:
 ### updates:
-- We have abandoned to use own modal-window script in favor of built-in functionality fancybox3;
-- Added flex-alignment for bootstrap.
+- Added text-alignment for bootstrap;
+- Added CSS sticky footer;
+- Some reorganize style files.
 
 ### bugfixes:
 - none

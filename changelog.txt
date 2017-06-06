@@ -1,15 +1,21 @@
+v 0.1.8
+updates:
+- Added text-alignment for bootstrap;
+- Added CSS sticky footer;
+- Some reorganize style files.
+
 v 0.1.7
 updates:
-- We have abandoned to use own modal-window script in favor of built-in functionality fancybox3
-- Added flex-alignment for bootstrap
+- We have abandoned to use own modal-window script in favor of built-in functionality fancybox3;
+- Added flex-alignment for bootstrap.
 
 v 0.1.1
 updates:
-- Updated jquery-3.1.2 to jquery 3.2.0
-- Added simple modal-windows functionality
+- Updated jquery-3.1.2 to jquery 3.2.0;
+- Added simple modal-windows functionality.
 
 bugfixes:
-- cleaned from some trash
+- cleaned from some trash.
 
 v 0.0.2
 updates:
