@@ -1,13 +1,17 @@
 # blank-layout
-This is my small template to quick start in layout creating.
+This is my personal small template to quick start in layout creating.
 
 
 ## What technologies using?
-HTML5, CSS3 + SASS (scss), Bootstrap 4 (only grid!) jQuery, FontAwesome icons
+- HTML5 ([html5shiv](https://github.com/afarkas/html5shiv) included)
+- CSS3 + SASS (scss)
+- Bootstrap 4 (grid and some utils)
+- jQuery
 
 ## What Plugins included?
 - [Slick slider v1.6.0](http://kenwheeler.github.io/slick/)
 - [fancybox 3.0](http://fancyapps.com/fancybox/3/)
+- [FontAwesome icons](http://fontawesome.io)
 
 ## Have you added anything else?
 Not yet.
@@ -61,9 +65,9 @@ And then simply create a link using `data-src` attribute that matches CSS id sel
 
 # In this version:
 ### updates:
-- Added text-alignment for bootstrap;
-- Added CSS sticky footer;
-- Some reorganize style files.
+- Again reorganize some files/dir;
+- Added utilities to bootstrap: border, position, visibility;
+- Added html5shiv script.
 
 ### bugfixes:
 - none

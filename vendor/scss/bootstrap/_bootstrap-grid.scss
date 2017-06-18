@@ -12,15 +12,15 @@
 }
 
 html {
-  box-sizing: border-box;
+//  box-sizing: border-box;
   -ms-overflow-style: scrollbar;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+//*,
+//*::before,
+//*::after {
+//  box-sizing: inherit;
+//}
 
 
 //
@@ -34,6 +34,7 @@ html {
 //
 
 @import "mixins/clearfix";
+@import "mixins/border-radius";
 @import "mixins/breakpoints";
 @import "mixins/grid-framework";
 @import "mixins/grid";
@@ -50,5 +51,7 @@ html {
 //
 
 @import "utilites/align";
+@import "utilites/borders";
 @import "utilites/flex";
 @import "utilites/text";
+@import "utilites/visibility";

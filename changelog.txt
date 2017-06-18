@@ -1,3 +1,9 @@
+v 0.1.84
+updates:
+- Again reorganize some files/dir;
+- Added utilities to bootstrap: border, position, visibility;
+- Added html5shiv script.
+
 v 0.1.8
 updates:
 - Added text-alignment for bootstrap;
