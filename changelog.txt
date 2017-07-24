@@ -1,3 +1,12 @@
+v 0.2.1
+updates:
+- added axios script;
+- fancybox updated from 3.0.47 to 3.1.20.
+
+bugfixes:
+- fixed html5shiv script;
+- fixed visibility utilities scss file.
+
 v 0.1.84
 updates:
 - Again reorganize some files/dir;
@@ -7,7 +16,7 @@ updates:
 v 0.1.8
 updates:
 - Added text-alignment for bootstrap;
-- Added CSS sticky footer;
+- Added CSS sticky footer (based on flex);
 - Some reorganize style files.
 
 v 0.1.7
