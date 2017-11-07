@@ -1,13 +1,12 @@
 @import "vendor/scss/normalize";
-@import "vendor/scss/bootstrap/bootstrap-grid";
-@import "vendor/scss/fancybox";
-@import "vendor/scss/fontawesome";
-@import "vendor/scss/slick";
-@import "vendor/scss/slick-theme";
 
 @import "scss/utils";
 @import "scss/fonts";
 @import "scss/tags";
 
-@import "scss/media";
+@import "scss/header";
+@import "scss/nav";
+@import "scss/content.scss";
+@import "scss/footer";
+
 @import "scss/print";

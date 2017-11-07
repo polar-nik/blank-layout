@@ -1,22 +1,19 @@
 # blank-layout
 This is my personal small template to quick start in layout creating.
 
-## What technologies using?
+### What technologies using?
 - HTML5 ([html5shiv](https://github.com/afarkas/html5shiv) included)
 - CSS3 + SASS (scss)
-- Bootstrap 4 (grid and some utils)
+- Bootstrap 4
 - jQuery
 - [axios](https://www.npmjs.com/package/axios) (**Warning!** This script need to create simple `POST`/`GET` queries **only** if you are **not using jQuery**. On index page this script commented!)
 
-## What Plugins included?
-- [Slick slider v1.6.0](http://kenwheeler.github.io/slick/)
-- [fancybox 3.0](http://fancyapps.com/fancybox/3/)
-- [FontAwesome icons](http://fontawesome.io)
+### What Plugins included?
+- [Slick slider v1.8.0](http://kenwheeler.github.io/slick/)
+- [fancybox 3.1.25](http://fancyapps.com/fancybox/3/)
+- [FontAwesome icons v 4.7.0](http://fontawesome.io)
 
-## Have you added anything else?
-Not yet.
-
-## How to use slick plugin?*
+### How to use slick plugin?*
 It's very simple:
 ```html
 <div class="your-class">
@@ -34,15 +31,15 @@ $(document).ready(function(){
 </script>
 ```
 
-## How to use fancybox plugin?*
+### How to use fancybox plugin?*
 It's more simple, that using slick slider :)
 ```html
 <a data-fancybox="gallery" href="big_image.jpg"><img src="small_image.jpg"></a>
 ```
 
-## How to use modal windows?
+### If there's a modal window and how to use them?
 
-With this, we will again help fancybox plugin:
+This will help us a fancybox plugin:
 
 You have to place a DIV container into the content of the page:
 ```html
@@ -94,18 +91,14 @@ axios.post('/user', {
 
 
 
-# In this version:
-### updates:
-- added axios script;
-- fancybox updated from 3.0.47 to 3.1.20.
+## In 1.0.0-rc version:
 
-### bugfixes:
-- fixed html5shiv script;
-- fixed visibility utilities scss file.
-
-# TODO:
-- ajax-php sendmail form+script
-- smth else..
+**updates**:
+- jquery updated to 3.2.1;
+- fancybox updated from 3.1.20 to 3.1.25;
+- slick updated from 1.6.0 to 1.8.0;
+- we started use fully bootstrap 4.0.0-beta;
+- added popper 1.12.6 (bootstrap requires)
 
 ***
 

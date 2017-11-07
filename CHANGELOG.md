@@ -1,49 +1,57 @@
-v 0.2.1
-updates:
+# v 1.0.0-rc
+**updates**:
+- jquery updated to 3.2.1;
+- fancybox updated from 3.1.20 to 3.1.25;
+- slick updated from 1.6.0 to 1.8.0;
+- we started use fully bootstrap 4.0.0-beta;
+- added popper 1.12.6 (bootstrap requires)
+
+## v0.6.1
+**updates**:
 - added axios script;
 - fancybox updated from 3.0.47 to 3.1.20.
 
-bugfixes:
+**bugfixes**:
 - fixed html5shiv script;
 - fixed visibility utilities scss file.
 
-v 0.1.84
-updates:
+## v0.5.1
+**updates**:
 - Again reorganize some files/dir;
 - Added utilities to bootstrap: border, position, visibility;
 - Added html5shiv script.
 
-v 0.1.8
-updates:
+## v0.4.1
+**updates**:
 - Added text-alignment for bootstrap;
 - Added CSS sticky footer (based on flex);
 - Some reorganize style files.
 
-v 0.1.7
-updates:
+## v0.3.1
+**updates**:
 - We have abandoned to use own modal-window script in favor of built-in functionality fancybox3;
 - Added flex-alignment for bootstrap.
 
-v 0.1.1
-updates:
+## v0.2.2
+**updates**:
 - Updated jquery-3.1.2 to jquery 3.2.0;
 - Added simple modal-windows functionality.
 
-bugfixes:
+**bugfixes**:
 - cleaned from some trash.
 
-v 0.0.2
-updates:
+## v0.2.1
+**updates**:
 - Refused from using Griddle, now only Bootstrap4 grid;
 - Added aligment utils to Bootstrap;
 - Updated fancybox-2 to version fancybox-3.
 
-bugfixes:
+**bugfixes**:
 - Finded loosed fancybox styles file;
 - Import utils styles file.
 
-other things:
+**other things**:
 - reorganized fonts dir.
 
-v 0.0.1
+## v0.1.0
 Project created.
