@@ -1,5 +1,6 @@
 $(document).ready(function () { "use strict";
 
-    /* Put your additional scripts here... */
+    // Prevent action on clicking on empty links
+    $('a[href="#"]').on('click', function (e) { e.preventDefault(); });
 
 });

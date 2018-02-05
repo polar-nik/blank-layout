@@ -1,4 +1,17 @@
-# v 1.0.0-rc
+# v 1.1.0
+**updates:**
+- added blank favicon;
+- bootstrap updated to 4.0.0;
+- axios updated to 0.17.1;
+- fancybox updated to 3.2.10;
+- fontawesome updated to 5.0.6;
+- compress slick css files;
+- added some useful function in script file.
+
+**bugfixed:**
+- fixed fonts include path.
+
+## v 1.0.0-rc
 **updates**:
 - jquery updated to 3.2.1;
 - fancybox updated from 3.1.20 to 3.1.25;
