@@ -1,17 +1,22 @@
 # blank-layout
 This is my personal small template to quick start in layout creating.
 
+## Important!
+We switched to a new Fontawesome 5 (svg-with-js).
+ **The old classes will not work!**
+ Please see the updated [documentation](https://fontawesome.com/how-to-use/svg-with-js)
+
 ### What technologies using?
 - HTML5 ([html5shiv](https://github.com/afarkas/html5shiv) included)
 - CSS3 + SASS (scss)
 - Bootstrap 4
 - jQuery
-- [axios](https://www.npmjs.com/package/axios) (**Warning!** This script need to create simple `POST`/`GET` queries **only** if you are **not using jQuery**. On index page this script commented!)
 
 ### What Plugins included?
 - [Slick slider v1.8.0](http://kenwheeler.github.io/slick/)
-- [fancybox 3.1.25](http://fancyapps.com/fancybox/3/)
-- [FontAwesome icons v 4.7.0](http://fontawesome.io)
+- [fancybox 3.2.10](http://fancyapps.com/fancybox/3/)
+- [FontAwesome icons v 5.0.6](http://fontawesome.com)
+- [axios](https://www.npmjs.com/package/axios) (**Warning!** This script need to create simple `POST`/`GET` queries **only** if you are **not using jQuery**. On index page this script commented!)
 
 ### How to use slick plugin?*
 It's very simple:
@@ -25,14 +30,14 @@ It's very simple:
 <script>
 $(document).ready(function(){
   $('.your-class').slick({
-    setting-name: setting-value
+    setting_name: 'setting-value'
   });
 });
 </script>
 ```
 
 ### How to use fancybox plugin?*
-It's more simple, that using slick slider :)
+It's much easier than using slick slider :)
 ```html
 <a data-fancybox="gallery" href="big_image.jpg"><img src="small_image.jpg"></a>
 ```
@@ -41,7 +46,7 @@ It's more simple, that using slick slider :)
 
 This will help us a fancybox plugin:
 
-You have to place a DIV container into the content of the page:
+You have to place a `DIV` container into the content of the page:
 ```html
 <a data-fancybox data-src="#hidden-content" href="javascript:;">
   Show modal window
@@ -56,7 +61,7 @@ And then simply create a link using `data-src` attribute that matches CSS id sel
 </div>
 ```
 
-## How to use axios?*
+### How to use axios?*
 **axios** - Promise based HTTP client for the browser and node.js
 
 Performing a `GET` request:
@@ -91,14 +96,20 @@ axios.post('/user', {
 
 
 
-## In 1.0.0-rc version:
+## In 1.1.0 version:
 
-**updates**:
-- jquery updated to 3.2.1;
-- fancybox updated from 3.1.20 to 3.1.25;
-- slick updated from 1.6.0 to 1.8.0;
-- we started use fully bootstrap 4.0.0-beta;
-- added popper 1.12.6 (bootstrap requires)
+**updates:**
+- added blank favicon;
+- bootstrap updated to 4.0.0;
+- axios updated to 0.17.1;
+- fancybox updated to 3.2.10;
+- fontawesome updated to 5.0.6;
+- compress slick css files;
+- added some useful function in script file.
+
+**bugfixed:**
+- fixed fonts include path.
+- fixed some translations :)
 
 ***
 
