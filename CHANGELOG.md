@@ -1,4 +1,13 @@
-# v 1.1.0
+# v 1.1.1
+**updates:**
+- some CSS improvements;
+- remove auto-detecting for phones and addresses for Safari browser;
+- slick updated from 1.8.0 to 1.8.1;
+- axios updated from 0.17.1 to 0.18.0;
+- fancybox updated from 3.2.10 to 3.5.6;
+- bootstrap updated from 4.0.0 to v4.3.1;
+
+## v 1.1.0
 **updates:**
 - added blank favicon;
 - bootstrap updated to 4.0.0;

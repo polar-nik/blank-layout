@@ -96,20 +96,15 @@ axios.post('/user', {
 
 
 
-## In 1.1.0 version:
+## In 1.1.1 version:
 
 **updates:**
-- added blank favicon;
-- bootstrap updated to 4.0.0;
-- axios updated to 0.17.1;
-- fancybox updated to 3.2.10;
-- fontawesome updated to 5.0.6;
-- compress slick css files;
-- added some useful function in script file.
-
-**bugfixed:**
-- fixed fonts include path.
-- fixed some translations :)
+- some CSS improvements;
+- remove auto-detecting for phones and addresses for Safari browser;
+- slick updated from 1.8.0 to 1.8.1;
+- axios updated from 0.17.1 to 0.18.0;
+- fancybox updated from 3.2.10 to 3.5.6;
+- bootstrap updated from 4.0.0 to v4.3.1;
 
 ***
 
