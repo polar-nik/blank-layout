@@ -1,5 +1,16 @@
 @import "vendor/scss/normalize";
 
+/* Vendor */
+@import "vendor/scss/bootstrap";
+
+@import "vendor/scss/fancybox";
+
+@import "vendor/scss/slick";
+@import "vendor/scss/slick-theme";
+
+@import "vendor/scss/fontawesome";
+
+/* Project */
 @import "scss/variables";
 
 @import "scss/utils";

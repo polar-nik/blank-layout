@@ -1,4 +1,13 @@
-# v 1.1.1
+# v 1.2.0
+**updates:**
+- refused to use html5shiv (The 21st century is in the yard!);
+- fontawesome updated from 5.0.6 to 5.15.2;
+- fancybox updated from 3.5.6 to 3.5.7;
+- bootstrap updated from 4.3.1 to v4.5.3;
+- remove all vendor css files. We put them in scss import!
+- fontawesome now used by CSS.
+
+## v 1.1.1
 **updates:**
 - some CSS improvements;
 - remove auto-detecting for phones and addresses for Safari browser;

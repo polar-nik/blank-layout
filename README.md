@@ -1,24 +1,26 @@
 # blank-layout
+
 This is my personal small template to quick start in layout creating.
 
-## Important!
-We switched to a new Fontawesome 5 (svg-with-js).
- **The old classes will not work!**
- Please see the updated [documentation](https://fontawesome.com/how-to-use/svg-with-js)
+### Important!
 
-### What technologies using?
-- HTML5 ([html5shiv](https://github.com/afarkas/html5shiv) included)
-- CSS3 + SASS (scss)
-- Bootstrap 4
-- jQuery
+*We switched to a new Fontawesome 5 (svg-with-js).*
 
-### What Plugins included?
-- [Slick slider v1.8.0](http://kenwheeler.github.io/slick/)
-- [fancybox 3.2.10](http://fancyapps.com/fancybox/3/)
-- [FontAwesome icons v 5.0.6](http://fontawesome.com)
-- [axios](https://www.npmjs.com/package/axios) (**Warning!** This script need to create simple `POST`/`GET` queries **only** if you are **not using jQuery**. On index page this script commented!)
+__Old classes may not work!__
 
-### How to use slick plugin?*
+## What technologies using?
+- HTML5
+- CSS3 + SASS
+- [Bootstrap 4.5.3](https://getbootstrap.com/docs/4.5/)
+- [jQuery](https://jquery.com/) 3.2.1
+
+## What Plugins included?
+- [Slick slider v1.8.1](http://kenwheeler.github.io/slick/)
+- [fancybox v3.5.7](http://fancyapps.com/fancybox/3/)
+- [FontAwesome icons v5.0.6](http://fontawesome.com)
+- [axios v0.18.0](https://www.npmjs.com/package/axios) (**Warning!** This script need to create simple `POST`/`GET` queries **only** if you are **not using jQuery**. On index page this script commented!)
+
+## How to use slick plugin?*
 It's very simple:
 ```html
 <div class="your-class">
@@ -36,7 +38,7 @@ $(document).ready(function(){
 </script>
 ```
 
-### How to use fancybox plugin?*
+## How to use fancybox plugin?*
 It's much easier than using slick slider :)
 ```html
 <a data-fancybox="gallery" href="big_image.jpg"><img src="small_image.jpg"></a>
@@ -61,7 +63,7 @@ And then simply create a link using `data-src` attribute that matches CSS id sel
 </div>
 ```
 
-### How to use axios?*
+## How to use axios?*
 **axios** - Promise based HTTP client for the browser and node.js
 
 Performing a `GET` request:
@@ -94,17 +96,14 @@ axios.post('/user', {
 );
 ```
 
-
-
-## In 1.1.1 version:
+## In 1.2.0 version:
 
 **updates:**
-- some CSS improvements;
-- remove auto-detecting for phones and addresses for Safari browser;
-- slick updated from 1.8.0 to 1.8.1;
-- axios updated from 0.17.1 to 0.18.0;
-- fancybox updated from 3.2.10 to 3.5.6;
-- bootstrap updated from 4.0.0 to v4.3.1;
+- refused to use html5shiv (The 21st century is in the yard!);- fontawesome updated from 5.0.6 to 5.15.2;
+- fancybox updated from 3.5.6 to 3.5.7;
+- bootstrap updated from 4.3.1 to v4.5.3;
+- remove all vendor css files. We put them in scss import!
+- fontawesome now used by CSS.
 
 ***
 
