@@ -1,4 +1,16 @@
-# v 1.2.0
+# 1.3.0
+**new:**
+- Added simple preloader
+- Now you can choose what bootstrap css-parts you need in `/vendor/scss/_bootstrap.scss`
+
+**updates:**
+- axios updated to 0.24.0
+- bootstrap updated to 5.1.3.
+- fancybox updated to 4.0.8
+- FontAwesome icons updated to v5.15.4
+- jQuery updated to 3.6.0
+
+## v 1.2.0
 **updates:**
 - refused to use html5shiv (The 21st century is in the yard!);
 - fontawesome updated from 5.0.6 to 5.15.2;

@@ -2,23 +2,17 @@
 
 This is my personal small template to quick start in layout creating.
 
-### Important!
-
-*We switched to a new Fontawesome 5 (svg-with-js).*
-
-__Old classes may not work!__
-
 ## What technologies using?
 - HTML5
 - CSS3 + SASS
-- [Bootstrap 4.5.3](https://getbootstrap.com/docs/4.5/)
-- [jQuery](https://jquery.com/) 3.2.1
+- [Bootstrap v5.1](https://getbootstrap.com/docs/5.1)
+- [jQuery v3.6.0](https://jquery.com/)
 
 ## What Plugins included?
 - [Slick slider v1.8.1](http://kenwheeler.github.io/slick/)
-- [fancybox v3.5.7](http://fancyapps.com/fancybox/3/)
-- [FontAwesome icons v5.0.6](http://fontawesome.com)
-- [axios v0.18.0](https://www.npmjs.com/package/axios) (**Warning!** This script need to create simple `POST`/`GET` queries **only** if you are **not using jQuery**. On index page this script commented!)
+- [fancyapps ui v4.0.8](https://fancyapps.com/docs/ui/installation/) (ex. fancybox)
+- [FontAwesome icons v5.15.4](http://fontawesome.com)
+- [axios v0.24.0](https://github.com/axios/axios) (**Warning!** This script need to create simple `POST`/`GET` queries **only** if you are **not using jQuery**. On example page this script commented!)
 
 ## How to use slick plugin?*
 It's very simple:
@@ -96,14 +90,18 @@ axios.post('/user', {
 );
 ```
 
-## In 1.2.0 version:
+## In 1.3.0 version:
+
+**new:**
+- Added simple preloader
+- Now you can choose what bootstrap css-parts you need in `/vendor/scss/_bootstrap.scss`
 
 **updates:**
-- refused to use html5shiv (The 21st century is in the yard!);- fontawesome updated from 5.0.6 to 5.15.2;
-- fancybox updated from 3.5.6 to 3.5.7;
-- bootstrap updated from 4.3.1 to v4.5.3;
-- remove all vendor css files. We put them in scss import!
-- fontawesome now used by CSS.
+- axios updated to 0.24.0
+- bootstrap updated to 5.1.3.
+- fancybox updated to 4.0.8
+- FontAwesome icons updated to v5.15.4
+- jQuery updated to 3.6.0
 
 ***
 

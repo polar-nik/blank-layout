@@ -14,25 +14,77 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="copyright" content="(c)">
+    <meta name="copyright" content="">
 
+    <style>
+      #preloader {
+        background: #FFF;
+        height: 100%;
+        left: 0;
+        opacity: 1;
+        position: fixed;
+        top: 0;
+        transition: opacity .3s;
+        width: 100%;
+        z-index: 10000 }
+
+      @keyframes spin {
+        0% { opacity: 0; transform: rotate(0deg); }
+        50% { opacity: 1; transform: rotate(180deg); }
+        100% { opacity: 0; transform: rotate(360deg); }
+      }
+
+      #spinner {
+        animation: spin 2s linear infinite;
+        border: 8px solid #f3f3f3;
+        border-top: 8px solid #6592ad;
+        border-radius: 50%;
+        bottom: 0;
+        height: 60px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 60px; }
+    </style>
 </head>
 <body>
+    <div id="preloader"><div id="spinner"></div></div>
 
     <header class="_header">header</header>
-    <main class="_content">main</main>
+
+    <main class="_content">
+        <a data-fancybox data-src="#hidden-content" href="javascript:;">
+            Show modal window
+        </a>
+    </main>
+
     <footer class="_footer">footer</footer>
+
+    <div style="display: none;" id="hidden-content">
+        <h2>Title</h2>
+        <p>Simple modal window</p>
+    </div>
 
     <link rel="stylesheet" href="styles.css">
 
-    <script src="vendor/js/jquery-3.2.1.min.js"></script>
+    <script src="vendor/js/jquery.min.js"></script>
     <script src="vendor/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/js/fancybox.umd.js"></script>
     <script src="vendor/js/slick.min.js"></script>
-    <script src="vendor/js/fancybox.min.js"></script>
     <!--
     <script src="vendor/js/axios.min.js"></script>
     -->
     <script src="scripts.js"></script>
 
+    <script>
+        window.onload = function () {
+            let preloader = document.getElementById('preloader');
+
+            preloader.style.opacity = '0';
+            setTimeout(function () { preloader.parentNode.removeChild(preloader) }, 500)
+        };
+    </script>
 </body>
 </html>
