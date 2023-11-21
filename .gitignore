@@ -6,4 +6,5 @@
 .idea/
 *.iml
 *.DS_Store
+._*
 _config.yml

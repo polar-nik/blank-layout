@@ -1,4 +1,16 @@
-# 1.3.0
+# 1.4.0
+**new:**
+- slick slider abandoned, now used swipper slider
+- added examples in example.html 
+
+**updates:**
+- axios updated to 1.1.2
+- bootstrap updated to 5.3.2
+- fancyapps/ui updated to 5.0.28
+- FontAwesome icons updated to 6.4.2
+- jQuery updated to 3.7.1
+
+## 1.3.0
 **new:**
 - Added simple preloader
 - Now you can choose what bootstrap css-parts you need in `/vendor/scss/_bootstrap.scss`

@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="format-detection" content="address=no">
 
-    <title>Index</title>
+    <title>blank-layout</title>
 
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -17,50 +17,89 @@
     <meta name="copyright" content="">
 
     <style>
-      #preloader {
-        background: #FFF;
-        height: 100%;
-        left: 0;
-        opacity: 1;
-        position: fixed;
-        top: 0;
-        transition: opacity .3s;
-        width: 100%;
-        z-index: 10000 }
+        #preloader {
+            background: #FFF;
+            height: 100%;
+            left: 0;
+            opacity: 1;
+            position: fixed;
+            top: 0;
+            transition: opacity .3s;
+            width: 100%;
+            z-index: 10000
+        }
 
-      @keyframes spin {
-        0% { opacity: 0; transform: rotate(0deg); }
-        50% { opacity: 1; transform: rotate(180deg); }
-        100% { opacity: 0; transform: rotate(360deg); }
-      }
+        @keyframes spin {
+            0% {
+                opacity: 0;
+                transform: rotate(0deg);
+            }
+            50% {
+                opacity: 1;
+                transform: rotate(180deg);
+            }
+            100% {
+                opacity: 0;
+                transform: rotate(360deg);
+            }
+        }
 
-      #spinner {
-        animation: spin 2s linear infinite;
-        border: 8px solid #f3f3f3;
-        border-top: 8px solid #6592ad;
-        border-radius: 50%;
-        bottom: 0;
-        height: 60px;
-        left: 0;
-        margin: auto;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 60px; }
+        #spinner {
+            animation: spin 2s linear infinite;
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #6592ad;
+            border-radius: 50%;
+            bottom: 0;
+            height: 60px;
+            left: 0;
+            margin: auto;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 60px;
+        }
     </style>
 </head>
 <body>
-    <div id="preloader"><div id="spinner"></div></div>
+    <div id="preloader">
+        <div id="spinner"></div>
+    </div>
 
-    <header class="_header">header</header>
+    <header class="_header mb-4">
+        <div class="container">blank-layout</div>
+    </header>
 
     <main class="_content">
-        <a data-fancybox data-src="#hidden-content" href="javascript:;">
-            Show modal window
-        </a>
+        <div class="container">
+            <h2>Slider example:</h2>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+            <h2 class="mt-4">Modal window example</h2>
+            <a data-fancybox data-src="#hidden-content" href="javascript:;">
+                Show modal window
+            </a>
+
+            <h2 class="mt-4">Fontawesome example</h2>
+            <a href="https://github.com/polar-nik/blank-layout"><i class="fab fa-fw fa-github"></i>blank-layout</a>
+        </div>
     </main>
 
-    <footer class="_footer">footer</footer>
+    <footer class="_footer mt-5">
+        <div class="container">Attached footer</div>
+    </footer>
 
     <div style="display: none;" id="hidden-content">
         <h2>Title</h2>
@@ -72,7 +111,7 @@
     <script src="vendor/js/jquery.min.js"></script>
     <script src="vendor/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/js/fancybox.umd.js"></script>
-    <script src="vendor/js/slick.min.js"></script>
+    <script src="vendor/js/swiper.min.js"></script>
     <!--
     <script src="vendor/js/axios.min.js"></script>
     -->
@@ -83,7 +122,9 @@
             let preloader = document.getElementById('preloader');
 
             preloader.style.opacity = '0';
-            setTimeout(function () { preloader.parentNode.removeChild(preloader) }, 500)
+            setTimeout(function () {
+                preloader.parentNode.removeChild(preloader)
+            }, 500)
         };
     </script>
 </body>
