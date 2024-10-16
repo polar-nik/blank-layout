@@ -1,4 +1,10 @@
-# 1.4.0
+# 1.4.1
+
+**updates:**
+- axios updated to 1.6.7
+- `/fonts` directory moved to `/vendor/fonts`
+
+## 1.4.0
 **new:**
 - slick slider abandoned, now used swipper slider
 - added examples in example.html 

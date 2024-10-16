@@ -1,10 +1,10 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
+# MacOs
+.DS_Store
+._*
+
+# Github Pages
+_config.yml
 
 # IntelliJ project files
 .idea/
 *.iml
-*.DS_Store
-._*
-_config.yml

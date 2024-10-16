@@ -5,14 +5,14 @@ This is my personal small template to quick start in layout creating.
 ## What technologies using?
 - HTML5
 - CSS3 + SASS
-- [Bootstrap v5.3.2](https://getbootstrap.com/docs/5.1)
+- [Bootstrap v5.3.2](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [jQuery v3.7.1](https://jquery.com/)
 
 ## What Plugins included?
 - [Swipper v11.0.4](https://swiperjs.com/get-started)
 - [fancyapps/ui v5.0.28](https://fancyapps.com/docs/ui/installation/) (ex. fancybox)
 - [FontAwesome icons v6.4.2](http://fontawesome.com)
-- [axios v1.1.2](https://github.com/axios/axios) (**Warning!** This script need to create simple `POST`/`GET` queries **only** if you are **not using jQuery**. On example page this script commented!)
+- [axios v1.6.7](https://github.com/axios/axios) (**Warning!** This script need to create simple `POST`/`GET` queries **only** if you are **not using jQuery**. On example page this script commented!)
 
 ## How to use Swipper plugin?*
 It's very simple:
@@ -141,18 +141,11 @@ axios.post('/user', {
 );
 ```
 
-## In 1.4.0 version:
-
-**new:**
-- slick slider abandoned, now used swipper slider
-- added examples in example.html
+## In 1.4.1 version:
 
 **updates:**
-- axios updated to 1.1.2
-- bootstrap updated to 5.3.2
-- fancyapps/ui updated to 5.0.28
-- FontAwesome icons updated to 6.4.2
-- jQuery updated to 3.7.1
+- axios updated to 1.6.7
+- `/fonts` directory moved to `/vendor/fonts`
 
 ***
 
