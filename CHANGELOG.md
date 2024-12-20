@@ -1,4 +1,9 @@
-# 1.4.1
+# 1.4.2
+
+**updates:**
+- preloader remover in `example.html` has been updated for smoother hiding
+
+## 1.4.1
 
 **updates:**
 - axios updated to 1.6.7

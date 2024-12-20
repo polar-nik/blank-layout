@@ -118,14 +118,21 @@
     <script src="scripts.js"></script>
 
     <script>
-        window.onload = function () {
-            let preloader = document.getElementById('preloader');
+        const FADE_TIME = 300;
 
-            preloader.style.opacity = '0';
-            setTimeout(function () {
-                preloader.parentNode.removeChild(preloader)
-            }, 500)
-        };
+        document.addEventListener('DOMContentLoaded', function () {
+            let preloader = document.getElementById('preloader'),
+                opacity = 1,
+                step = opacity / (FADE_TIME / 100),
+                interval = setInterval(function () {
+                    opacity = (opacity - Math.round(step * 100) / 100).toFixed(2);
+                    preloader.style.opacity = opacity;
+
+                    if (opacity < 0) clearInterval(interval);
+                }, FADE_TIME / 100);
+
+            setTimeout(() => preloader.parentNode.removeChild(preloader), FADE_TIME + 10);
+        });
     </script>
 </body>
 </html>

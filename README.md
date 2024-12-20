@@ -1,6 +1,9 @@
 # blank-layout
 
-This is my personal small template to quick start in layout creating.
+![Static Badge](https://badgen.net/static/stable/1.4.2)
+
+
+This is small template to quick start in layout creating.
 
 ## What technologies using?
 - HTML5
@@ -76,7 +79,7 @@ $(document).ready(function(){
 ## How to use fancybox plugin?*
 It's much easier than using swipper slider :)
 ```html
-<a data-fancybox="gallery" href="big_image.jpg"><img src="small_image.jpg"></a>
+<a data-fancybox="gallery" href="big_image.jpg"><img src="small_image.jpg" alt="imagee"></a>
 <script>Fancybox.bind("[data-fancybox]");</script>
 ```
 
@@ -141,11 +144,10 @@ axios.post('/user', {
 );
 ```
 
-## In 1.4.1 version:
+## In 1.4.2 version:
 
 **updates:**
-- axios updated to 1.6.7
-- `/fonts` directory moved to `/vendor/fonts`
+- preloader remover in `example.html` has been updated for smoother hiding
 
 ***
 
